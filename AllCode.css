@@ -1,0 +1,46 @@
+.bigbox-top {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav-Web {
+    width: 100vw;
+    height: 70px;
+    background-color: rgba(0,0,0,.6);
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, white, red, white) 50 30;
+}
+
+.nav-Web .nav-Web-l li {
+    float: left;
+    list-style: none;
+}
+
+.nav-Web .nav-web-r {
+    float: right;
+}
+
+/*修补超链接文字空隙问题*/
+.nav-Web .text-p {
+    padding-left: 10px;
+}
+
+/*修改导航栏超链接样式*/
+.nav-Web a {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    font: italic bolder 18px "";
+    letter-spacing: 10px;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+}
+
+/*修改导航栏下方英文样式*/
+.nav-Web a .text_English {
+    font: normal normal 1px "Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+    letter-spacing: 0;
+}

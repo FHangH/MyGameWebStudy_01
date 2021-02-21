@@ -1,0 +1,56 @@
+.video_bg1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    max-width: 100%;
+}
+
+.slideshow-wrapper {
+    width: 1264px;
+    height: 342px;
+    margin: 40px auto;
+    padding: 17px 15px;
+    position: relative;
+    background-color: hotpink;
+    overflow: hidden;
+    list-style: none;
+    z-index: 1;
+}
+
+.slideshow-wrapper .slide-container {
+    position: relative;
+    width: 1235px;
+    height: 303px;
+    margin: 0 auto;
+    z-index: 1;
+    display: flex;
+    overflow: hidden;
+}
+
+.slideshow-wrapper .slide-container > a {
+    text-decoration: none;
+    display: block;
+}
+
+.slideshow-wrapper .slide-container  a .animate-item {
+    width: 1235px;
+    height: 303px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slideshow-wrapper .slide-container  a .animate-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.slideshow-wrapper input {
+    position: absolute;
+    right: 20px;
+    bottom: 40px;
+    display: flex;
+    align-items: center;
+    z-index: 98;
+}

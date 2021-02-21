@@ -1,0 +1,53 @@
+body {
+    background-image: url("../img/bgimg1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment:fixed;
+}
+
+.video-wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.video-center {
+    width: 800px;
+    list-style: none;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.video-center .video-li {
+    width: inherit;
+    height: 365px;
+    display: block;
+    margin-top: 50px;
+}
+
+.video-center .v-left {
+    float: left;
+}
+
+.video-center .v-right {
+    float: right;
+    margin-top: 5px;
+}
+
+.video-center .v-right h3 {
+    width: 140px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+.video-center .v-right h6 {
+    width: 140px;
+    text-align: left;
+    word-wrap : break-word;
+    line-height: 30px;
+}
+
+
+

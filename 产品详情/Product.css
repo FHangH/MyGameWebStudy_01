@@ -1,0 +1,29 @@
+.video_bg1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    max-width: 100%;
+}
+
+.text-wrapper {
+    width: 800px;
+    height: 1200px;
+    background-color: rgba(0,0,0,.7);
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.text-wrapper h1 {
+    letter-spacing: 50px;
+    color: white;
+    margin-left: 50px;
+}
+
+.text-wrapper .th3 {
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    line-height: 20px;
+}
